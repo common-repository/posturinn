@@ -1,0 +1,681 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pósturinn's Shipping with WooCommerce\n"
+"POT-Creation-Date: 2024-06-24 12:20+0000\n"
+"PO-Revision-Date: 2024-11-10 13:33+0000\n"
+"Last-Translator: Aron Hallsson <postur@postur>\n"
+"Language-Team: Aron Hallsson <postur@postur.is>\n"
+"Language: is_IS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n%10==1 && n%100!=11);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wc-posturinn-shipping-api.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/admin.php:813
+msgid "Shipment Print Status"
+msgstr "Prent staða"
+
+#: inc/admin.php:814
+msgid "Printed"
+msgstr "Prentað"
+
+#: inc/admin.php:815
+msgid "Not printed"
+msgstr "Ekki prentað"
+
+#: inc/admin.class.php:534
+msgid "Create Shipments"
+msgstr "Búa til sendingarmiða"
+
+#: inc/admin.class.php:535
+msgid "Print Shipment PDF"
+msgstr "Prenta sendingarmiða"
+
+#: inc/admin.class.php:536
+msgid "Mark as printed"
+msgstr "Merkja sem prentað"
+
+#: inc/admin.class.php:537
+msgid "Mark as not printed"
+msgstr "Merkja sem EKKI prentað"
+
+
+
+
+#: inc/functions.php:340
+msgid "--- Choose parcel ----"
+msgstr "--- Veldu pakkaport ---"
+
+#: inc/functions.php:355
+msgid "Select Parcel"
+msgstr "Pakkaport valkostir"
+
+#: inc/hooks.php:41
+msgid "Parcel Points"
+msgstr "Pakkaport"
+
+
+
+
+#: inc/postis.class.php:171
+msgid "Google Map Settings"
+msgstr "Google Maps stillingar fyrir Póstbox"
+
+#: inc/postis.class.php:173
+msgid "The following options are used to integrate Postboxes with Google Map on checkout page."
+msgstr "Hér getur þú virkjað að hafa kort á vefsíðu þinni til að velja póstbox"
+
+#: inc/postis.class.php:183
+msgid "You can disable our Google maps script html tag incase of conflicts."
+msgstr "Hér getur þú óvirkjað google maps html script taggið ef þú skildir vera fá conflicts."
+
+#: inc/postis.class.php:176
+msgid "Enable Google Map"
+msgstr "Virkja Google Map"
+
+#: inc/postis.class.php:182
+msgid "Disable Google Map Scripts"
+msgstr "Óvirkja Google Map scriptu"
+
+#: inc/postis.class.php:189
+msgid "Provide the google map API Key."
+msgstr "Hér setur þú þinn Google maps API lykil"
+
+
+
+
+#: inc/hooks.php:29
+msgid "Postbox Address"
+msgstr "Staðsetning póstbox"
+
+#: inc/hooks.php:87
+msgid "Choose Postbox"
+msgstr "Velja póstbox"
+
+#: inc/hooks.php:32
+msgid "Selected Postbox: "
+msgstr "Valið póstbox: "
+
+
+
+
+
+
+
+
+#: inc/admin.class.php:685
+msgid "Tarriff Number"
+msgstr "Tollnúmer"
+
+#: inc/admin.class.php:688
+msgid "Tarriff Number. Needs to be 6 or 8 numbers"
+msgstr "Tollnúmer. Þarf að vera 6 eða 8 tölustafir"
+
+#: inc/admin.class.php:694
+msgid "Description in english"
+msgstr "Lýsing tollvöru á ensku"
+
+#: inc/admin.class.php:697
+msgid "This needs to be written in english!"
+msgstr "Þetta þarf að vera skrifað á ensku!"
+
+
+
+#: inc/postis.class.php:125
+msgid "Use Shipping Price"
+msgstr "Veldu verðflokk frá API"
+
+#: inc/postis.class.php:126
+msgid "Choose shipping price calculation method."
+msgstr "API þjónusta póstsins skilar tveimur verðum. Annaðhvort með VSK eða án VSK. Hér getur þú valið hvort þú vilt nota."
+
+#: inc/postis.class.php:133
+msgid "Include Woocommerce VAT"
+msgstr "Reikna með Woocommerce VSK útreikning"
+
+#: inc/postis.class.php:137
+msgid "Calculate shipping prices with woocommerce VAT."
+msgstr "Í woocommerce er hægt að stilla VSK útreikninga, hér getur þú valið hvort viðbótin okkar taki þann útreikning með í sendingarverði eða ekki."
+
+#: templates/shipment-options.php:134
+msgid ""
+"The phone number in the order is not correct or missing. You can write new phone number in the field below and click \"Create shipment\" button."
+msgstr ""
+"Símanúmer í pöntun virðist ekki vera rétt eða vantar. Þú getur ritað nýtt símanúmer í reitinn hér að neðan og smellt á \"Búa til sendingu\" aftur."
+
+#: templates/shipment-options.php:141
+msgid "Enter Valid PhoneNumber"
+msgstr "Rita nýtt símanúmer"
+
+#: templates/shipment-options.php:58
+msgid "Extra Options"
+msgstr "Viðbótarþjónustur"
+
+#: templates/shipment-options.php:92
+msgid "cod"
+msgstr "Póstkrafa"
+
+#: templates/shipment-options.php:92
+msgid "express"
+msgstr "Forgangsþjónusta"
+
+#: templates/shipment-options.php:92
+msgid "contractAttached"
+msgstr "Kaupsamningur"
+
+#: templates/shipment-options.php:92
+msgid "deliverToRecipientOnly"
+msgstr "Afhendist eingöngu skráðum viðtakanda"
+
+#: templates/shipment-options.php:92
+msgid "deliveryAdvice"
+msgstr "Móttökukvittun"
+
+#: templates/shipment-options.php:92
+msgid "fragile"
+msgstr "Brothætt"
+
+#: templates/shipment-options.php:92
+msgid "insurance"
+msgstr "Pósttrygging"
+
+#: templates/shipment-options.php:92
+msgid "recipientPaysPostage"
+msgstr "Viðtakandi greiðir"
+
+#: templates/shipment-options.php:92
+msgid "reference"
+msgstr "Tilvísun póstkröfu"
+
+#: templates/shipment-options.php:92
+msgid "returnAllowed"
+msgstr "Endursendist"
+
+#: templates/shipment-options.php:92
+msgid "insuranceAmount"
+msgstr "Verðmæti sendingar"
+
+#: inc/admin.php:46
+msgid "Postis Shipment"
+msgstr "Pósturinn"
+
+#: inc/admin.php:92 inc/admin.php:505
+msgid "View Shipment"
+msgstr "Skoða sendingu"
+
+#: inc/admin.php:94 inc/admin.php:507 templates/shipment-options.php:135
+msgid "Create Shipment"
+msgstr "Búa til sendingu"
+
+#: inc/admin.php:97
+msgid "Shipment Available After Order Completed"
+msgstr "Sendingarmiði aðgengilegur eftir að þú hefur merkt pöntun sem Afgreidd"
+
+#: inc/admin.php:102 inc/admin.php:517
+msgid "Get PDF"
+msgstr "Sækja sendingarmiða"
+
+#: inc/admin.php:186 inc/admin.php:331
+msgid "Shipment Created Successfully"
+msgstr "Tókst að búa til sendingu"
+
+#: inc/admin.php:190
+msgid "Shipment Not Created"
+msgstr "Ekki tókst að búa til sendingu"
+
+#: inc/admin.php:334
+#, php-format
+msgid ""
+"Shipment Not Created.\n"
+"Server Response: %s"
+msgstr ""
+"Ekki tókst að búa til sendingu.\n"
+"Svar frá netþjóni: %s"
+
+#: inc/admin.php:469
+msgid "Shipment"
+msgstr "Sending"
+
+#: inc/admin.php:470
+msgid "PDF"
+msgstr "PDF"
+
+#: inc/callbacks.php:51
+msgid "Postboxes"
+msgstr "Póstnúmer"
+
+#: inc/checkout-fields.class.php:96
+msgid "kennitala field is Only allows 10 numbers."
+msgstr "kennitala má aðeins vera 10 stafir á lengd."
+
+#: inc/checkout-fields.class.php:98
+msgid "Invalid kennitala field"
+msgstr "Ógild kennitala"
+
+#: inc/checkout-fields.class.php:109
+msgid "PostBox Phone Number Required For DPO Service"
+msgstr "Það þarf að rita farsímanúmer ef valið er Póstbox"
+
+#: inc/checkout-fields.class.php:117
+msgid "PostBox Address Required For DPO Service"
+msgstr "Vinsamlegast veldu póstbox"
+
+#: inc/functions.php:21
+#, php-format
+msgid "<a href=\"%s\">%s</a>"
+msgstr ""
+
+#: inc/functions.php:266
+msgid "--- Choose postbox ----"
+msgstr "--- Veldu póstbox ---"
+
+#: inc/functions.php:278
+msgid "Select PostBox"
+msgstr "Veldu póstbox"
+
+#: inc/functions.php:289
+msgid "Phone Number"
+msgstr "Farsímanúmer"
+
+#: inc/functions.php:313
+msgid "Resend"
+msgstr "Endursenda"
+
+#: inc/functions.php:314
+msgid "Destroy"
+msgstr "Eyða"
+
+#: inc/functions.php:322
+msgid "Gift"
+msgstr "Gjöf"
+
+#: inc/functions.php:323
+msgid "Document"
+msgstr "Skjal"
+
+#: inc/functions.php:324
+msgid "Sample"
+msgstr "Sýnishorn"
+
+#: inc/functions.php:325
+msgid "Sales Product"
+msgstr "Söluvara"
+
+#: inc/functions.php:326
+msgid "Resent"
+msgstr "Endursenda"
+
+#: inc/functions.php:327
+msgid "Other"
+msgstr "Annað"
+
+#: inc/postis.class.php:20 inc/postis.class.php:94
+msgid "Shipping with Posturinn"
+msgstr "Sending með póstinum"
+
+#: inc/postis.class.php:21
+msgid "Posturinn Shipping allow you delivery in Iceland"
+msgstr "Stillingar fyrir viðbót"
+
+#: inc/postis.class.php:85 inc/postis.class.php:222
+msgid "Enable/Disable"
+msgstr "Virkja/Óvirkja"
+
+#: inc/postis.class.php:87 inc/postis.class.php:127 inc/postis.class.php:134 inc/postis.class.php:161 inc/postis.class.php:224
+msgid "Enable"
+msgstr "Virkja"
+
+#: inc/postis.class.php:91
+msgid "Method Title"
+msgstr "Heiti sendingarmáta"
+
+#: inc/postis.class.php:93
+msgid "This controls the title which the user sees during checkout."
+msgstr "Notandi sér þetta í checkout."
+
+#: inc/postis.class.php:98
+msgid "Base Postcode"
+msgstr "Póstnúmer sendanda"
+
+#: inc/postis.class.php:100
+msgid "Provide base post code"
+msgstr "Hér ritar þú póstnúmer á verslun þinni eða vöruhúsinu þínu"
+
+#: inc/postis.class.php:105
+msgid "API Key"
+msgstr "API lykill"
+
+#: inc/postis.class.php:107
+msgid "Provide API Key received from Posturinn"
+msgstr "Þú finnur þinn API lykil í möppunni á vefsíðu postur.is"
+
+#: inc/postis.class.php:112
+msgid "Error message"
+msgstr "Villu skilaboð"
+
+#: inc/postis.class.php:114
+msgid "Custom error message when contry is not Iceland"
+msgstr "Villu skilaboð ef staðsettning viðtakanda er ekki ísland"
+
+#: inc/postis.class.php:118
+msgid "Debug Log"
+msgstr "Villuskrá"
+
+#: inc/postis.class.php:120
+msgid "Enable logging"
+msgstr "Virkja villuskrá"
+
+#: inc/postis.class.php:122
+#, php-format
+msgid "Log Shipping API. See Log %s"
+msgstr "Loggar sendingar API. Sjá %s"
+
+#: inc/postis.class.php:125
+msgid "Shipping method on top"
+msgstr "Okkar sendingarmáti efst"
+
+#: inc/postis.class.php:129
+msgid "Enable our shipping method on top."
+msgstr "Setja sendingarmátana okkar fyrst í röð."
+
+#: inc/postis.class.php:132
+msgid "Automatic Printing"
+msgstr "Sjálfvirk prentun"
+
+#: inc/postis.class.php:136
+msgid "Automatically print shipment slip."
+msgstr "Þú þarft að setja upp Póststoð á tölvuna þína og tengja prentlykilinn við möppuna svo þetta virki."
+
+#: inc/postis.class.php:139
+msgid "Shipping Mode"
+msgstr "Hamur"
+
+#: inc/postis.class.php:145
+msgid "Select shipping mode."
+msgstr "Þú getur aðeins valið Demo ef þú hefur fengið demo API lykil frá Póstinu."
+
+#: inc/postis.class.php:154
+msgid "PDF Settings"
+msgstr "PDF stillingar"
+
+#: inc/postis.class.php:156
+msgid "The following options are used to configure PDF only for domestic shipment"
+msgstr "Eftirtaldar stillingar eru notaðar til að stilla til PDF sendingarmiðann sem þú getur prentað beint úr Woocommerce verslunarkerfinu þínu"
+
+#: inc/postis.class.php:159
+msgid "Open PDF in new tab"
+msgstr "Opna PDF í nýjum glugga"
+
+#: inc/postis.class.php:165
+msgid "PDF Width"
+msgstr "PDF vídd"
+
+#: inc/postis.class.php:166
+msgid "This will add a PDF width"
+msgstr "Bætir eða minnkar víddina á PDF skjalinu"
+
+#: inc/postis.class.php:172
+msgid "PDF Height"
+msgstr "PDF hæð"
+
+#: inc/postis.class.php:173
+msgid "This will add a PDF height"
+msgstr "Bætir eða minnkar PDF hæðina á skjalinu"
+
+#: inc/postis.class.php:179
+msgid "PDF Rotate"
+msgstr "PDF snú"
+
+#: inc/postis.class.php:180
+msgid "This will add a PDF rotate"
+msgstr "Hér geturu snúið PDF skjalinu eftir þörfum"
+
+#: inc/postis.class.php:186
+msgid "PDF Orientation"
+msgstr "PDF stefnumörkun"
+
+#: inc/postis.class.php:187
+msgid "This will add a PDF orientation."
+msgstr "Hvort þú viljir að PDF sendingarmiðinn sé portrait eða landscape."
+
+#: inc/postis.class.php:194
+msgid "PDF Move Right"
+msgstr "PDF færa til hægri"
+
+#: inc/postis.class.php:195
+msgid "This will add a PDF move right."
+msgstr "Hér getur þú fært sendingarmiðann til hægri/vinstri á PDF skjalinu til að miðjusetja betur."
+
+#: inc/postis.class.php:201
+msgid "PDF Move Down"
+msgstr "PDF færa niður"
+
+#: inc/postis.class.php:202
+msgid "This will add a PDF move down."
+msgstr "Hér getur þú fært sendingarmiðann niður/upp á PDF skjalinu til að miðjusetja betur."
+
+#: inc/postis.class.php:208
+msgid "PDF Bigger Barcode"
+msgstr "PDF stærri"
+
+#: inc/postis.class.php:209
+msgid "This will add a PDF biggerbarcode."
+msgstr "Hér getur þú zoomað inná PDF miðann ef þú vilt að hann fylli betur út í PDF skjalið."
+
+#: inc/postis.class.php:217
+msgid "Kennitala Field Settings"
+msgstr "Kennitala"
+
+#: inc/postis.class.php:219
+msgid "Add extra text billing field in checkout page."
+msgstr "Hér getur þú valið hvort þú viljir bæta við kennitölu reit í checkout ferlið."
+
+#: inc/postis.class.php:228
+msgid "Field Label"
+msgstr "Nafn á kennitölu reitinum"
+
+#: inc/postis.class.php:229
+msgid "Enter Field Label."
+msgstr "Ritaðu hér."
+
+#: inc/postis.class.php:234
+msgid "Required Field"
+msgstr "Nauðsynlegt"
+
+#: inc/postis.class.php:235
+msgid "Enable to required field."
+msgstr "Vilja til að gera reit nauðsynlegann."
+
+#: inc/postis.class.php:600
+msgid "Costs"
+msgstr "Kostar"
+
+#: inc/postis.class.php:606
+msgid "Enabled"
+msgstr "Virkja"
+
+#: inc/postis.class.php:607
+msgid "Service Code"
+msgstr "Sendingarkóði"
+
+#: inc/postis.class.php:608
+msgid "Service Name"
+msgstr "Sendingarmáti"
+
+#: inc/postis.class.php:609
+msgid "Description"
+msgstr "Lýsing"
+
+#: inc/postis.class.php:610
+msgid "Added Cost"
+msgstr "Viðbættur kostnaður"
+
+#: inc/postis.class.php:610
+msgid "Fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e.g. 5%"
+msgstr "Auka kostnaður sem þú getur bætt við sendingarkostnað frá Póstinum. Án/vsk. Ritaðu upphæð eða prósentu"
+
+#: inc/postis.class.php:611
+msgid "Free Shipping"
+msgstr "Frí sending"
+
+#: templates/shipment-options.php:92
+msgid "Optional Services"
+msgstr "Aukaþjónustur"
+
+#: templates/shipment-options.php:38
+msgid "CodChosen"
+msgstr "Póstkrafa"
+
+#: templates/shipment-options.php:42
+msgid "DeliveryAdviceChosen"
+msgstr "Móttökukvittun"
+
+#: templates/shipment-options.php:51
+msgid "International Shipment Options"
+msgstr "Valkostir fyrir erlendar sendingar"
+
+#: templates/shipment-options.php:56
+msgid "EfPakkiKemstEkkiTilSkila"
+msgstr "Ef pakki kemst ekki til skila"
+
+#: templates/shipment-options.php:94
+msgid "To use this service you must provide bank details to Posturinn"
+msgstr "Til að nota þessa þjónustu þá verðuru að veita Póstinum bankaupplýsingar"
+
+#: templates/shipment-options.php:69
+msgid "LysingVoru (InnihaldSendingar)"
+msgstr "Lýsing vöru (Innihald sendingar)"
+
+#: templates/shipment-options.php:85
+msgid "Magn"
+msgstr "Magn"
+
+#: templates/shipment-options.php:86
+msgid "Tollvirdi"
+msgstr "Tollvirði"
+
+#: templates/shipment-options.php:87
+msgid "Gjaldmidill"
+msgstr "Gjaldmiðill"
+
+#: templates/shipment-options.php:88
+msgid "NakvaemInnihaldslysing"
+msgstr "Nákvæm innihaldslýsing"
+
+#: templates/shipment-options.php:122 templates/shipment-view.php:115
+msgid "Number Of Parcels"
+msgstr "Fjöldi pakka"
+
+#: templates/shipment-view.php:43
+msgid "Create Shipment Again"
+msgstr "Eyða og Búa til sendingu aftur"
+
+#: templates/shipment-view.php:46
+msgid "Shipment Detail"
+msgstr "Upplýsingar sendingar"
+
+#: templates/shipment-view.php:50
+msgid "Shipment ID"
+msgstr "Sendingarnúmer"
+
+#: templates/shipment-view.php:51
+msgid "Customer ID"
+msgstr "Viðskiptamannanúmer"
+
+#: templates/shipment-view.php:52
+msgid "Registration Key"
+msgstr "Auðkenni sendingar"
+
+#: templates/shipment-view.php:64
+msgid "Sender Detail"
+msgstr "Upplýsingar sendanda"
+
+#: templates/shipment-view.php:68 templates/shipment-view.php:92
+msgid "Name"
+msgstr "Nafn"
+
+#: templates/shipment-view.php:69
+msgid "User ID"
+msgstr "Notendanúmer"
+
+#: templates/shipment-view.php:70
+msgid "Store ID"
+msgstr "Verslunarnúmer"
+
+#: templates/shipment-view.php:71 templates/shipment-view.php:93
+msgid "Address"
+msgstr "Heimilisfang"
+
+#: templates/shipment-view.php:72 templates/shipment-view.php:94
+msgid "Postcode"
+msgstr "Póstnúmer"
+
+#: templates/shipment-view.php:73 templates/shipment-view.php:95
+msgid "CountryCode"
+msgstr "Landsnúmer"
+
+#: templates/shipment-view.php:88
+msgid "Recipient Detail"
+msgstr "Upplýsingar viðtakanda"
+
+#: templates/shipment-view.php:109
+msgid "Shipment Method"
+msgstr "Sendingarmáti"
+
+#: templates/shipment-view.php:113
+msgid "Delivery Service ID"
+msgstr "Sendingarkóði"
+
+#: templates/shipment-view.php:114
+msgid "Delivery Service Name"
+msgstr "Sendingarmáti"
+
+#: templates/shipment-view.php:127
+msgid "Tracking"
+msgstr "Rekja pakka"
+
+#: templates/shipment-view.php:134
+msgid "Tracking Number"
+msgstr "Sendingarnúmer"
+
+#: templates/shipment-view.php:135
+msgid "Delivery Location"
+msgstr "Heimilisfang viðtakanda"
+
+#: templates/shipment-view.php:136
+msgid "Mail Type"
+msgstr "Sendingarmáti"
+
+#: templates/shipment-view.php:137
+msgid "Status Text"
+msgstr "Stöðu texti"
+
+#: templates/shipment-view.php:151
+#, php-format
+msgid "Server Response Error: <strong>%s</strong>"
+msgstr "Villa frá netþjóni: <strong>%s</strong>"
+
+#. Plugin Name of the plugin/theme
+msgid "Pósturinn's Shipping with WooCommerce"
+msgstr "Pósturinn"
+
+#. Description of the plugin/theme
+msgid "This plugin is an WooCommerce extension to extend shipping method with Pósturinn's - Iceland"
+msgstr "Þessi viðbót beintengir woocommerce verslunarkerfið við fyrirtækjamöppuna hjá Póstinum"
+
+#. Author of the plugin/theme
+msgid "Pósturinn"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://postur.is"
+msgstr ""

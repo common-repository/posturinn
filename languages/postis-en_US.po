@@ -1,0 +1,516 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pósturinn's Shipping with WooCommerce\n"
+"POT-Creation-Date: 2020-03-02 23:36-0800\n"
+"PO-Revision-Date: 2020-03-24 17:42+0000\n"
+"Last-Translator: Aron Hallsson <baroninn@gmail.com>\n"
+"Language-Team: Aron Hallsson <baroninn@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wc-posturinn-shipping-api.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: templates/shipment-options.php:58
+msgid "Extra Options"
+msgstr ""
+
+#: templates/shipment-options.php:92
+msgid "cod"
+msgstr "Cash on delivery"
+
+#: templates/shipment-options.php:92
+msgid "express"
+msgstr "Express/Special home delivery"
+
+#: templates/shipment-options.php:92
+msgid "contractAttached"
+msgstr ""
+
+#: templates/shipment-options.php:92
+msgid "deliverToRecipientOnly"
+msgstr "Delivery to addressee only"
+
+#: templates/shipment-options.php:92
+msgid "deliveryAdvice"
+msgstr "Signature on delivery"
+
+#: templates/shipment-options.php:92
+msgid "fragile"
+msgstr "Fragile"
+
+#: templates/shipment-options.php:92
+msgid "insurance"
+msgstr "Insurance"
+
+#: templates/shipment-options.php:92
+msgid "recipientPaysPostage"
+msgstr "Recipient Pays"
+
+#: templates/shipment-options.php:92
+msgid "reference"
+msgstr "Reference"
+
+#: templates/shipment-options.php:92
+msgid "returnAllowed"
+msgstr "Return allowed"
+
+#: templates/shipment-options.php:92
+msgid "insuranceAmount"
+msgstr "Insurance Amount"
+
+#: inc/admin.php:34
+msgid "Postis Shipment"
+msgstr ""
+
+#: inc/admin.php:74 inc/admin.php:446
+msgid "View Shipment"
+msgstr ""
+
+#: inc/admin.php:76 inc/admin.php:448
+msgid "Create Shipment"
+msgstr ""
+
+#: inc/admin.php:84 inc/admin.php:458
+msgid "Get PDF"
+msgstr ""
+
+#: inc/admin.php:167 inc/admin.php:305
+msgid "Shipment Created Successfully"
+msgstr ""
+
+#: inc/admin.php:171
+msgid "Shipment Not Created"
+msgstr ""
+
+#: inc/admin.php:308
+#, php-format
+msgid ""
+"Shipment Not Created.\n"
+" Server Response: %s"
+msgstr ""
+
+#: inc/admin.php:417
+msgid "Shipment"
+msgstr ""
+
+#: inc/admin.php:418
+msgid "PDF"
+msgstr ""
+
+#: inc/callbacks.php:50
+msgid "Postboxes"
+msgstr ""
+
+#: inc/checkout-fields.class.php:94
+msgid "kennitala field is Only allows 10 numbers."
+msgstr ""
+
+#: inc/checkout-fields.class.php:96
+msgid "Invalid kennitala field"
+msgstr ""
+
+#: inc/checkout-fields.class.php:107
+msgid "PostBox Phone Number Required For DPO Service"
+msgstr ""
+
+#: inc/checkout-fields.class.php:115
+msgid "PostBox Address Required For DPO Service"
+msgstr ""
+
+#: inc/functions.php:21
+#, php-format
+msgid "<a href=\"%s\">%s</a>"
+msgstr ""
+
+#: inc/functions.php:269
+msgid "Select PostBox"
+msgstr ""
+
+#: inc/functions.php:280
+msgid "Phone Number"
+msgstr ""
+
+#: inc/functions.php:304
+msgid "Resend"
+msgstr ""
+
+#: inc/functions.php:305
+msgid "Destroy"
+msgstr ""
+
+#: inc/functions.php:313
+msgid "Gift"
+msgstr ""
+
+#: inc/functions.php:314
+msgid "Document"
+msgstr ""
+
+#: inc/functions.php:315
+msgid "Sample"
+msgstr ""
+
+#: inc/functions.php:316
+msgid "Sales Product"
+msgstr ""
+
+#: inc/functions.php:317
+msgid "Resent"
+msgstr ""
+
+#: inc/functions.php:318
+msgid "Other"
+msgstr ""
+
+#: inc/postis.class.php:19 inc/postis.class.php:89
+msgid "Shipping with Posturinn"
+msgstr ""
+
+#: inc/postis.class.php:20
+msgid "Posturinn Shipping allow you delivery in Iceland"
+msgstr ""
+
+#: inc/postis.class.php:80 inc/postis.class.php:197
+msgid "Enable/Disable"
+msgstr ""
+
+#: inc/postis.class.php:82 inc/postis.class.php:199
+msgid "Enable"
+msgstr ""
+
+#: inc/postis.class.php:86
+msgid "Method Title"
+msgstr ""
+
+#: inc/postis.class.php:88
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: inc/postis.class.php:93
+msgid "Base Postcode"
+msgstr ""
+
+#: inc/postis.class.php:95
+msgid "Provide base post code"
+msgstr ""
+
+#: inc/postis.class.php:100
+msgid "API Key"
+msgstr ""
+
+#: inc/postis.class.php:102
+msgid "Provide API Key received from Posturinn"
+msgstr ""
+
+#: inc/postis.class.php:107
+msgid "Error message"
+msgstr ""
+
+#: inc/postis.class.php:109
+msgid "Custom error message when contry is not Iceland"
+msgstr ""
+
+#: inc/postis.class.php:113
+msgid "Debug Log"
+msgstr ""
+
+#: inc/postis.class.php:115
+msgid "Enable logging"
+msgstr ""
+
+#: inc/postis.class.php:117
+#, php-format
+msgid "Log Shipping API. See Log %s"
+msgstr ""
+
+#: inc/postis.class.php:120
+msgid "Shipping Mode"
+msgstr ""
+
+#: inc/postis.class.php:126
+msgid "Select shipping mode."
+msgstr ""
+
+#: inc/postis.class.php:135
+msgid "PDF Settings"
+msgstr ""
+
+#: inc/postis.class.php:137
+msgid ""
+"The following options are used to configure PDF only for domestic shipment"
+msgstr ""
+
+#: inc/postis.class.php:140
+msgid "PDF Width"
+msgstr ""
+
+#: inc/postis.class.php:141
+msgid "This will add a PDF width"
+msgstr ""
+
+#: inc/postis.class.php:147
+msgid "PDF Height"
+msgstr ""
+
+#: inc/postis.class.php:148
+msgid "This will add a PDF height"
+msgstr ""
+
+#: inc/postis.class.php:154
+msgid "PDF Rotate"
+msgstr ""
+
+#: inc/postis.class.php:155
+msgid "This will add a PDF rotate"
+msgstr ""
+
+#: inc/postis.class.php:161
+msgid "PDF Orientation"
+msgstr ""
+
+#: inc/postis.class.php:162
+msgid "This will add a PDF orientation."
+msgstr ""
+
+#: inc/postis.class.php:169
+msgid "PDF Move Right"
+msgstr ""
+
+#: inc/postis.class.php:170
+msgid "This will add a PDF move right."
+msgstr ""
+
+#: inc/postis.class.php:176
+msgid "PDF Move Down"
+msgstr ""
+
+#: inc/postis.class.php:177
+msgid "This will add a PDF move down."
+msgstr ""
+
+#: inc/postis.class.php:183
+msgid "PDF Bigger Barcode"
+msgstr ""
+
+#: inc/postis.class.php:184
+msgid "This will add a PDF biggerbarcode."
+msgstr ""
+
+#: inc/postis.class.php:192
+msgid "Kennitala Field Settings"
+msgstr ""
+
+#: inc/postis.class.php:194
+msgid "Add extra text billing field in checkout page."
+msgstr ""
+
+#: inc/postis.class.php:203
+msgid "Field Label"
+msgstr ""
+
+#: inc/postis.class.php:204
+msgid "Enter Field Label."
+msgstr ""
+
+#: inc/postis.class.php:209
+msgid "Required Field"
+msgstr ""
+
+#: inc/postis.class.php:210
+msgid "Enable to required field."
+msgstr ""
+
+#: inc/postis.class.php:581
+msgid "Costs"
+msgstr ""
+
+#: inc/postis.class.php:586
+msgid "Enabled"
+msgstr ""
+
+#: inc/postis.class.php:587
+msgid "Service Code"
+msgstr ""
+
+#: inc/postis.class.php:588
+msgid "Service Name"
+msgstr ""
+
+#: inc/postis.class.php:589
+msgid "Description"
+msgstr ""
+
+#: inc/postis.class.php:590
+msgid "Added Cost"
+msgstr ""
+
+#: inc/postis.class.php:590
+msgid "Fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e.g. 5%"
+msgstr ""
+
+#: templates/shipment-options.php:58
+msgid "Optional Services"
+msgstr ""
+
+#: templates/shipment-options.php:38
+msgid "CodChosen"
+msgstr "Cash on delivery"
+
+#: templates/shipment-options.php:42
+msgid "DeliveryAdviceChosen"
+msgstr "Signature on delivery"
+
+#: templates/shipment-options.php:51
+msgid "International Shipment Options"
+msgstr ""
+
+#: templates/shipment-options.php:56
+msgid "EfPakkiKemstEkkiTilSkila"
+msgstr "If parcel does not deliver"
+
+#: templates/shipment-options.php:60
+msgid "To use this service you must provide bank details to Posturinn"
+msgstr ""
+
+#: templates/shipment-options.php:69
+msgid "LysingVoru (InnihaldSendingar)"
+msgstr "Product Desc. (Contents)"
+
+#: templates/shipment-options.php:85
+msgid "Magn"
+msgstr "Qty"
+
+#: templates/shipment-options.php:86
+msgid "Tollvirdi"
+msgstr "Price"
+
+#: templates/shipment-options.php:87
+msgid "Gjaldmidill"
+msgstr "Currency"
+
+#: templates/shipment-options.php:88
+msgid "NakvaemInnihaldslysing"
+msgstr "Detailed product desc"
+
+#: templates/shipment-options.php:120
+msgid "Number Of Parcels"
+msgstr ""
+
+#: templates/shipment-view.php:41
+msgid "Create Shipment Again"
+msgstr ""
+
+#: templates/shipment-view.php:44
+msgid "Shipment Detail"
+msgstr ""
+
+#: templates/shipment-view.php:48
+msgid "Shipment ID"
+msgstr ""
+
+#: templates/shipment-view.php:49
+msgid "Customer ID"
+msgstr ""
+
+#: templates/shipment-view.php:50
+msgid "Registration Key"
+msgstr ""
+
+#: templates/shipment-view.php:62
+msgid "Sender Detail"
+msgstr ""
+
+#: templates/shipment-view.php:66 templates/shipment-view.php:90
+msgid "Name"
+msgstr ""
+
+#: templates/shipment-view.php:67
+msgid "User ID"
+msgstr ""
+
+#: templates/shipment-view.php:68
+msgid "Store ID"
+msgstr ""
+
+#: templates/shipment-view.php:69 templates/shipment-view.php:91
+msgid "Address"
+msgstr ""
+
+#: templates/shipment-view.php:70 templates/shipment-view.php:92
+msgid "Postcode"
+msgstr ""
+
+#: templates/shipment-view.php:71 templates/shipment-view.php:93
+msgid "CountryCode"
+msgstr ""
+
+#: templates/shipment-view.php:86
+msgid "Recipient Detail"
+msgstr ""
+
+#: templates/shipment-view.php:107
+msgid "Shipment Method"
+msgstr ""
+
+#: templates/shipment-view.php:111
+msgid "Delivery Service ID"
+msgstr ""
+
+#: templates/shipment-view.php:112
+msgid "Delivery Service Name"
+msgstr ""
+
+#: templates/shipment-view.php:123
+msgid "Tracking"
+msgstr ""
+
+#: templates/shipment-view.php:130
+msgid "Tracking Number"
+msgstr ""
+
+#: templates/shipment-view.php:131
+msgid "Delivery Location"
+msgstr ""
+
+#: templates/shipment-view.php:132
+msgid "Mail Type"
+msgstr ""
+
+#: templates/shipment-view.php:133
+msgid "Status Text"
+msgstr ""
+
+#: templates/shipment-view.php:147
+#, php-format
+msgid "Server Response Error: <strong>%s</strong>"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Pósturinn's Shipping with WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://postur.is"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin is an WooCommerce extension to extend shipping method with "
+"Pósturinn's - Iceland"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pósturinn"
+msgstr ""

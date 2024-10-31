@@ -1,0 +1,225 @@
+/* Hide scroll bar */
+
+html.remodal-is-locked {
+  overflow: hidden;
+
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+/* Anti FOUC */
+
+.remodal,
+[data-remodal-id] {
+  display: none;
+}
+
+/* Necessary styles of the overlay */
+
+.remodal-overlay {
+  position: fixed;
+  z-index: 9999;
+  top: -5000px;
+  right: -5000px;
+  bottom: -5000px;
+  left: -5000px;
+
+  display: none;
+}
+
+/* Necessary styles of the wrapper */
+
+.remodal-wrapper {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: none;
+  overflow: auto;
+
+  text-align: center;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+.remodal-wrapper:after {
+  display: inline-block;
+
+  height: 100%;
+  margin-left: -0.05em;
+
+  content: "";
+}
+
+/* Fix iPad, iPhone glitches */
+
+.remodal-overlay,
+.remodal-wrapper {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Necessary styles of the modal dialog */
+
+.remodal {
+  position: relative;
+
+  outline: none;
+
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+.remodal-is-initialized {
+  /* Disable Anti-FOUC */
+  display: inline-block;
+}
+
+
+/*google Maps CSS*/
+
+#postis-map {
+  min-height: 50vh;
+  width: 100%;
+}
+
+.postis-postboxes-section {
+  float: left;
+  width: 35%;
+  max-height: 50vh;
+  overflow: auto;
+}
+
+.postis-googlemap-section {
+  float: left;
+  width: 65%;
+}
+
+/* Clear floats after the columns */
+
+.postis-col-wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.postis-postboxes-section ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: white;
+}
+
+.postis-postboxes-section li {
+  position: relative;
+  padding-left: 4px;
+  min-height: 40px;
+  line-height: 24px;
+  margin: 0px 3px 0px 3px;
+  cursor: pointer;
+  user-select: none;
+  text-align: left;
+  border-bottom: 1px solid #d61821;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*
+.postis-postboxes-section li:before {
+  position: absolute;
+  content: "";
+  left: 4px;
+  top: 50%;
+  margin-top: -10px;
+  border-left: 20px solid #ccc;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.postis-postboxes-section li:after {
+  position: absolute;
+  content: "";
+  left: 4px;
+  top: 50%;
+  margin-top: -10px;
+  border-left: 5px solid white;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+*/
+
+/*.postis-postboxes-section li:hover {
+  */
+
+/*  background: #eeeeee;*/
+
+/*}*/
+
+.postis-postboxes-section li:hover:before {
+  border-left-color: #777;
+}
+
+/*.postis-postboxes-section li:active {
+  */
+
+/*  background: #eee;*/
+
+/*  box-shadow: inset 0 1px 1px #666;*/
+
+/*}*/
+
+.postis-popup-outer-content {
+  width: 100%;
+  background-color: #d61821;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postis-popup-outer-content h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+.postis-postbox-js {
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.remodal-confirm {
+  color: #fff !important;
+  background: #d61821 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+.remodal-confirm:hover,
+.remodal-confirm:focus {
+  background: #d61821 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .postis-postboxes-section,
+  .postis-googlemap-section {
+    width: 100%;
+  }
+}
+
+.postis-googlemap-active-loc {
+  background-color: green;
+  color: #fff;
+}
+
+.postis-googlemap-choosen-address {
+  display: block;
+}

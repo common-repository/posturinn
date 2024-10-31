@@ -1,0 +1,5 @@
+{
+    "require": {
+        "cloudstek/php-laff": "^1.1"
+    }
+}
